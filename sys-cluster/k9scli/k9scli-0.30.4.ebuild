@@ -5,7 +5,7 @@ EAPI=8
 inherit go-module
 
 # update this on every bump
-GIT_COMMIT=f4543e9b
+GIT_COMMIT=34da44b
 
 DESCRIPTION="terminal based UI to manage kubernetes clusters"
 HOMEPAGE="https://k9scli.io"
