@@ -6,15 +6,15 @@ inherit go-module systemd tmpfiles
 
 # These settings are obtained by running ./build_dist.sh shellvars` in
 # the upstream repo.
-VERSION_MINOR="60"
-VERSION_SHORT="1.60.0"
-VERSION_LONG="1.60.0-tf4e3ee53e"
-VERSION_GIT_HASH="f4e3ee53ea4605d400df2ef6b6005b026661f96b"
+VERSION_MINOR="64"
+VERSION_SHORT="1.64.2"
+VERSION_LONG="1.64.2-tede81e266"
+VERSION_GIT_HASH="ede81e2669bc01d60f52c84eea1d404215b13e16"
 
 DESCRIPTION="Tailscale vpn client"
 HOMEPAGE="https://tailscale.com"
 SRC_URI="https://github.com/tailscale/tailscale/archive/v${PV}.tar.gz -> ${P}.tar.gz"
-SRC_URI+=" https://dev.gentoo.org/~williamh/dist/${P}-deps.tar.xz"
+SRC_URI+=" https://dev.gentoo.org/~williamh/dist/tailscale-1.60.0-deps.tar.xz"
 
 LICENSE="MIT"
 SLOT="0"
